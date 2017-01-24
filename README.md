@@ -1,5 +1,5 @@
 # ToDoListApp
-This app is the prework submission for the CodePath Android bootcamp.
+This app is the prework submission for the Girls in Tech and CodePath Android bootcamp.
 
 ## How To Use This App
 1. Enter todo items into the space at the bottom and hit "ADD". The entered text will be shown in the list above.
