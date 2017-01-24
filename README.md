@@ -19,7 +19,11 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * Added support for completion due dates for todo items
-* Tweaked the style improving the UI / UX, played with colors, images or backgrounds
+* Tweaked the style improving the UI / UX, played with colors, images and backgrounds
+
+The following **additional** features are implemented:
+
+* Implemented "empty entry check" to ensure the entered fields are not empty when adding or editing items to prevent the todo items in the list from being blank.
 
 ## How To Use This App
 1. Enter todo items into the space at the bottom and hit "ADD". The entered text will be shown in the list above.
