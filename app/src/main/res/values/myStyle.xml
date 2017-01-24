@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_color">#E4FAE9</color>
+    <color name="divider_color">#FFFFFF</color>
+    <color name="actionBar_bg_color">#2AD2AF</color>
+    <color name="actionBar_text_color">#FFFFFF</color>
+    <color name="editText_bg_color">#FFFFFF</color>
+
+    <style name="myStyle" parent="android:Theme.Holo.Light">
+        <item name="android:windowBackground">@color/bg_color</item>
+        <item name="android:listViewStyle">@style/myListView</item>
+        <item name="android:actionBarStyle">@style/myActionBar</item>
+        <item name="android:editTextStyle">@style/myEditText</item>
+    </style>
+
+    <style name="myEditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@color/editText_bg_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="myListView" parent="@android:style/Widget.ListView">
+        <item name="android:divider">@color/divider_color</item>
+        <item name="android:dividerHeight">4px</item>
+    </style>
+
+    <style name="myActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/actionBar_bg_color</item>
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionBar_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
