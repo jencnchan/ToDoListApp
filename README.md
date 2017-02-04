@@ -1,8 +1,8 @@
-# Pre-work - Jenni's Todo List App
+# Pre-work - Todo List App
 
 This app is the prework submission for the Girls in Tech and CodePath Android bootcamp. 
 
-**Jenni's Todo List App** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting existing items.
+**Todo List App** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting existing items.
 
 Submitted by: **Jennifer Chan**
 
@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 ## How To Use This App
 1. Enter todo items into the space at the bottom and hit "Add". The entered text will be shown in the list above and stored in the database.
-2. Click on the items in the list to bring you to the edit page. In this page, you can edit the item, hit "Select" to select a due date for the item, and choose an importance level for the item. Hit "Save" to save the edited data. The todo item, it's due date, and it's level of importance will be stored and shown. The levels of importance are expressed by color. (Red = High importance, Orange = Medium importance, Green = Low importance)
+2. Click on the items in the list to bring you to the edit page. In this page, you can edit the item, hit "Select" to select a due date for the item, and choose an importance level for the item. Hit "Save" to save the edited data. The todo item, it's due date, and it's level of importance will be stored and shown in the main page. The levels of importance are expressed by color. (Red = High importance, Orange = Medium importance, Green = Low importance)
 3. In the main page, long click on the items in the listview to delete the items.
 4. Previously saved data will be shown when restarting the app.
 
