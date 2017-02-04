@@ -6,6 +6,7 @@
     <color name="actionBar_bg_color">#2AD2AF</color>
     <color name="actionBar_text_color">#FFFFFF</color>
     <color name="editText_bg_color">#FFFFFF</color>
+    <color name="spinner_bg_color">#FFFFFF</color>
 
     <style name="myStyle" parent="android:Theme.Holo.Light">
         <item name="android:windowBackground">@color/bg_color</item>
@@ -25,7 +26,7 @@
 
     <style name="myListView" parent="@android:style/Widget.ListView">
         <item name="android:divider">@color/divider_color</item>
-        <item name="android:dividerHeight">4px</item>
+        <item name="android:dividerHeight">3dp</item>
     </style>
 
     <style name="myActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">

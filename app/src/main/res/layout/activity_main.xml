@@ -10,17 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.androidpractice.jennifer.todoapp.MainActivity">
 
-    <Button
-        android:id="@+id/btnAddItem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/etEditText"
-        android:onClick="onAddIem"
-        android:text="@string/add" />
-
     <ListView
         android:id="@+id/lvItems"
         android:layout_width="match_parent"
@@ -42,4 +31,16 @@
         android:ems="10"
         android:hint="@string/add_item"
         android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnAddItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/etEditText"
+        android:onClick="onAddIem"
+        android:text="@string/add" />
+
 </RelativeLayout>
