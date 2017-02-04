@@ -1,10 +1,10 @@
-# Pre-work - ToDo App
+# Pre-work - Jenni's Todo List App
 
 This app is the prework submission for the Girls in Tech and CodePath Android bootcamp. 
 
-**ToDo App** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing items.
+**Jenni's Todo List App** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting existing items.
 
-Submitted by: Jennifer Chan
+Submitted by: **Jennifer Chan**
 
 Time spent: 15 hours spent in total
 
@@ -12,31 +12,36 @@ Time spent: 15 hours spent in total
 
 The following **required** functionality is completed:
 
-* User can **successfully add and remove items** from the todo list
-* User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list.
-* User can **persist todo items** and retrieve them properly on app restart
+* [X] User can **successfully add and remove items** from the todo list
+* [X] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list
+* [X] User can **persist todo items** and retrieve them properly on app restart
 
 The following **optional** features are implemented:
 
-* Added support for completion due dates for todo items
-* Tweaked the style improving the UI / UX, played with colors, images and backgrounds
+* [X] Persisted the todo items into SQLite instead of a text file
+* [X] Improved style of the todo items in the list using a custom adapter
+* [X] Added support for completion due dates for the todo items and displayed within the listview item
+* [X] Added support for selecting the priority (importance) of each todo item and displayed in the listview item
+* [X] Tweaked the style improving the UI / UX, played with colors, images and backgrounds
 
 The following **additional** features are implemented:
 
-* Implemented "empty entry check" to ensure the entered fields are not empty when adding or editing items to prevent the todo items in the list from being blank.
+* [X] Used DatePickerDialog for the user to select the due dates
+* [X] Displayed importance of the items in the listview by color
+* [X] Implemented "empty entry check" to ensure the entered fields are not empty when adding or editing items to prevent the todo items in the list from being blank
+* [X] Implemented "existing item check" to ensure the item to be added or edited has not already existed in the current list
 
 ## How To Use This App
-1. Enter todo items into the space at the bottom and hit "ADD". The entered text will be shown in the list above.
-2. Click on the items in the list to bring you to the edit page. In this page, you can edit the items and hit "SELECT" to select a due date for the todo item. Hit "SAVE" to save the edited data.
-3. In the main page, long click on the items in the list to delete items.
-4. Previous data will be shown when restarting the app.
+1. Enter todo items into the space at the bottom and hit "Add". The entered text will be shown in the list above and stored in the database.
+2. Click on the items in the list to bring you to the edit page. In this page, you can edit the item, hit "Select" to select a due date for the item, and choose an importance level for the item. Hit "Save" to save the edited data. The todo item, it's due date, and it's level of importance will be stored and shown. The levels of importance are expressed by color. (Red = High importance, Orange = Medium importance, Green = Low importance)
+3. In the main page, long click on the items in the listview to delete the items.
+4. Previously saved data will be shown when restarting the app.
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-![todoapp gif walkthrough](https://cloud.githubusercontent.com/assets/24812963/22261818/5c83518c-e2a9-11e6-91f0-d62e60ee3a3a.gif)
-
+![todo app gif walkthrough](https://cloud.githubusercontent.com/assets/24812963/22621752/d7bed06e-eb65-11e6-8bc2-ee02ba885501.gif)
 
 ## License
 
